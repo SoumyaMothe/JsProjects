@@ -1,0 +1,35 @@
+body{
+   background-image: url(https://images.unsplash.com/photo-1661126331771-adaf15929190?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-position: center center;
+    color: aliceblue;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+h1{
+    font-size: 4rem;
+    
+}
+.countown-container{
+    display: flex;
+
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin:0 2rem;
+}
+.countdown-in {
+    text-align: center;
+}
+.countdown-in span{
+    font-size: 1.5rem;;
+}
