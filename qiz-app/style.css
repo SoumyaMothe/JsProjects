@@ -30,6 +30,9 @@ ul{
     list-style-type: none;
     padding: 0;
 }
+ul li label{
+    cursor: pointer;
+}
 button{
     background-color:crimson;
     display: block;

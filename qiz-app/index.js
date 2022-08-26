@@ -62,19 +62,16 @@ function loadQuiz()
     d_text.innerHTML=currentQuiz.d;
     }
 submit.addEventListener('click',()=>{
-    const val=document.getElementsByName('answer');
-    if(val===quizData[curr_question].correct)
+    if(curr_question<quizData.length)
     {
-    correctA++;
-    }
-   
-    if(curr_question>=quizData.length)
+        loadQuiz();
+     }
+    else
     {
-        const correct=document.getElementById('corr');
-        correct.innerHTML=correctA;
+        alert('You finished');
     }
     curr_question++;
-    loadQuiz();
+ 
 
 
 })
